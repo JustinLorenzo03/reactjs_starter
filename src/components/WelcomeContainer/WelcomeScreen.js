@@ -5,7 +5,7 @@ class WelcomeScreen extends Component {
         return (
             <div>
                 <h3> Welcome to Rock, Paper, Scissors Game</h3>
-                
+                 <button type="submit" className="btn btn-primary btn-block">Get Started</button>
             </div>
         );
     }
