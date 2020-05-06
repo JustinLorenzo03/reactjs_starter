@@ -4,7 +4,7 @@ class WelcomeScreen extends Component {
     render() {
         return (
             <div>
-                <h3> Welcome to Rock, Paper, Scissors Game</h3>
+                <h3>User Game Stats</h3>
                 
             </div>
         );
