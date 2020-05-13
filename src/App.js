@@ -11,6 +11,8 @@ import Donate from "./components/DonateContainer/Donate.js";
 import Avatar from "./components/AvatarContainer/Avatar.js";
 import UserHome from "./components/UserContainer/UserHome.js";
 import Timer from "./components/UserVsComputerContainer/Timer.js";
+import UserVsComputer from "./components/UserVsComputerContainer/UserVsComputer.js";
+import UserVsPlayer from "./components/UserVsComputerContainer/UserVsPlayer.js";
 
 function App() {
   return (<Router>
@@ -35,9 +37,7 @@ function App() {
                <li className="nav-item">
                 <Link className="nav-link" to={"/user-home"}>User Home</Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to={"/timer"}>Timer</Link>
-              </li>
+
             </ul>
           </div>
         </div>
@@ -52,7 +52,7 @@ function App() {
             <Route exact path="/game-stats" component={GameStats} />
             <Route exact path="/donate" component={Donate} />
             <Route exact path="/user-home" component={UserHome} />
-            <Route exact path="/timer" component={Timer} />
+             <Route exact path="/user-vs-computer" component={UserVsComputer} />
           </Switch>
         </div>
       </div>

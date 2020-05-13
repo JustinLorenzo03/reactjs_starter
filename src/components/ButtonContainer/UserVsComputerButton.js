@@ -3,15 +3,15 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 
 import './Buttons.css';
-function LoginButton(){
+function UserVsComputerButton(){
 const Button = withRouter(({history}) => (
     <button
     type="button"
     className="btn"
-    onclick={() => {history.push('/sign-in')}}
-    >Login</button>
+    onclick={() => {history.push('/user-vs-computer')}}
+    >Computer</button>
     ));
     return <Button />    
 }
 
-export default LoginButton;
+export default UserVsComputerButton;
